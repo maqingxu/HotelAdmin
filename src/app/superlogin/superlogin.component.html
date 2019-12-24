@@ -1,0 +1,24 @@
+<div class="bg">
+  <div class="wel"><h1>毕业设计管理系统</h1></div>
+  <div class="user">
+    <div class="inuser">用户名</div>
+    <input type="text" name="用户" value="admin" #uName>
+  </div>
+  <div class="password">
+    <div class="inuser">密&nbsp;&nbsp;&nbsp;码</div>
+    <input class="" type="password" name="密码" value="123456" #uPassword>
+  </div>
+  <div class="rem">
+    <input type="checkbox" name="" id="" value="">
+    <div class="reb">
+      记住密码
+    </div>
+  </div>
+  <div class="fg">
+    <div >
+      <a href="">忘记密码？</a>
+    </div>
+  </div>
+  <button (click)="login(uName.value, uPassword.value)">登录</button>
+</div>
+
